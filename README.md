@@ -23,4 +23,4 @@ The board serves as a platform for exploring industry-standard design practices 
 
 ## System Architecture
 
-![System Design](assets/System Design.png)
+![System Design](./assets/System Design.png)
