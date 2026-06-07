@@ -23,25 +23,3 @@ The board serves as a platform for exploring industry-standard design practices 
 
 ## System Architecture
 
-```text
-                     +----------------+
-                     |  Power Input   |
-                     |   5V / 12V     |
-                     +--------+-------+
-                              |
-                              v
-                     +----------------+
-                     | Power Delivery |
-                     |    Network     |
-                     +--------+-------+
-                              |
-                              v
-+--------------------------------------------------+
-|           Raspberry Pi Compute Module 4          |
-|                                                  |
-|  PCIe Gen2 x1    Gigabit Ethernet    USB 2.0     |
-|       |                 |               |        |
-+-------+-----------------+---------------+--------+
-        |                 |               |
-        v                 v               v
-     M.2 Slot       RJ45 Connector    USB Port
